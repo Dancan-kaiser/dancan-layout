@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>formating forms using tables</title>
+</head>
+<body>
+<table border="5">
+<tr>
+ <th colspan="4" align="right">Personal Details</th>
+</tr>
+<tr>
+ <td>Salutaion:</td>
+ <td align="center"><select>
+	<option>Mr</option>
+	<option>Mrs</option>
+	<option>Ms</option>
+</td>
+ <td colspan="2">Name:<input type="text" name"name"/</td>
+</tr>
+<tr>
+ <td>Gender:</td>
+ <td><input type="radio" name="radiobutton">Male</input></td>
+ <td><input type="radio" name="radiobutton">Female</input></td>
+ <td>DOB:<input type="date" name="Date of birth"/></td>
+</tr>
+<tr>
+ <td>Email:</td>
+ <td colspan="2"><input type="text" name="email address"/></td>
+ <td rowspan="3" align="center">Description:</br>
+	<textarea id="description" name="description" rows="7" cols="18"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="3">Do you want to get email address</br>
+	<input type="checkbox" name="chackbox">Yes</input>
+	<input type="checkbox" name="checkbox">No</input>
+</td>
+</tr>
+<tr>
+ <td colspan="3" align="center"><input type="submit" name="submit"/></td>
+</tr>
+</table> 
+</body>
+</html>
